@@ -68,6 +68,7 @@ autopages:
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-youtube
   - jekyll-paginate-v2
   - jekyll-sitemap
 compress_html:
