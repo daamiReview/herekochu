@@ -33,3 +33,7 @@ git add .
 git comment -m 'your comment'
 git push
 ```
+
+## Recent Change
+* Project has been created
+* Wiki has been created
