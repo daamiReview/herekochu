@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Congrats on your first push hope you will not slack off'' first issue'
-        pr-message: 'Good Job you are going great, Learn and Build is a step towards being younger'' first pr'
+        pr-message: 'Good Job you are going great, Learn and Build is a step towards being younger +1 Hooray'' first pr'
