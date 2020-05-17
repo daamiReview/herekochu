@@ -6,3 +6,11 @@ node_modules/
 _site
 .sass-cache
 .jekyll-metadata
+.eslintrc
+.style*
+gulp*
+package*
+*.browser
+*.jekyll-cache
+barber.jpg
+
