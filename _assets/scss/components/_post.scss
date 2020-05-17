@@ -17,13 +17,13 @@
     @extend %font-header;
 
     display: block;
-    margin-top: 0.25em;
+    margin-top: 0.45em;
 
     font-size: $font-xsmall;
   }
 
   &__img {
-    height: 18em;
+    height: 25em;
     padding: 1em;
 
     @media (min-width: $mq-small) {
@@ -33,7 +33,7 @@
 
     @media (min-width: $mq-med) {
       height: calc(100vh - 3em);
-      min-height: 36em;
+      min-height: 110em;
     }
 
     & > * {
