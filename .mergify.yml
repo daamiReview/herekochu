@@ -18,3 +18,11 @@ pull_request_rules:
     actions:
         comment:
           message: This pull request is now in conflicts. Could you fix it? 🙏
+  - name: automatic merge for ImgBot pull requests
+    conditions:
+      - author=imgbot[bot]
+      - status-success=build
+    actions:
+      merge:
+        method: merge
+
