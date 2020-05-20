@@ -5,10 +5,10 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 name: JungeeBah
-title: HerekoChau
+title: DaamiReview
 description: >
-  HerekoChau stands to just blab about the movies that we have seen
-url: 
+  DaamiReview stands to just blab about the movies that we have seen
+url: "www.daamireview.com"
 twitter_username: thomasvaeth
 default_img: /assets/images/seo.jpg
 social:
@@ -59,7 +59,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'HerekoChau'
+    title: 'DaamiReview'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
@@ -71,6 +71,7 @@ plugins:
   - jekyll-youtube
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-picture-tag
 compress_html:
   clippings: all
   comments: all
@@ -85,3 +86,12 @@ exclude:
   - package.json
   - README.md
   - vendor
+
+picture:
+  source: "assets/images"
+  output: "generated"
+  markup_presets:
+    default:
+      widths: [600, 900, 1200]
+      formats: [webp, original]
+
