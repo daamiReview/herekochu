@@ -5,9 +5,9 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 name: JungeeBah
-title: HerekoChau
+title: DaamiReview
 description: >
-  HerekoChau stands to just blab about the movies that we have seen
+  DaamiReview stands to just blab about the movies that we have seen
 url: 
 twitter_username: thomasvaeth
 default_img: /assets/images/seo.jpg
@@ -59,7 +59,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'HerekoChau'
+    title: 'DaamiReview'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
