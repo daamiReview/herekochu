@@ -71,6 +71,7 @@ plugins:
   - jekyll-youtube
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-picture-tag
 compress_html:
   clippings: all
   comments: all
@@ -85,3 +86,12 @@ exclude:
   - package.json
   - README.md
   - vendor
+
+picture:
+  source: "assets/images"
+  output: "generated"
+  markup_presets:
+    default:
+      widths: [600, 900, 1200]
+      formats: [webp, original]
+
