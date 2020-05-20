@@ -71,6 +71,7 @@ plugins:
   - jekyll-youtube
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll_picture_tag
 compress_html:
   clippings: all
   comments: all
@@ -85,3 +86,7 @@ exclude:
   - package.json
   - README.md
   - vendor
+
+picture:
+  source: "assets/images"
+  output: "assets/images/generation"

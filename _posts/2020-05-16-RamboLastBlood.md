@@ -7,8 +7,7 @@ image: /assets/images/rambolastblood.jpg
 author: Adrian
 tags:
   - English
-  - Sylvester Stallone
-  - Action
+
 
 ---
 
@@ -35,3 +34,8 @@ When Rambo gets the news that Gabrielle has gone off to Mexico, he goes off in p
 Taken simply on its own merits, “Rambo: Last Blood” is an undeniably awful movie. While the previous installment may have brought to mind many of the cheapo “Rambo” knockoffs produced in the ‘80s by Cannon Films and featuring the likes of [Chuck Norris](https://www.rogerebert.com/cast-and-crew/chuck-norris) or [Michael Dudikoff](https://www.rogerebert.com/cast-and-crew/michael-dudikoff), this one feels more like a direct-to-video item that inexplicably made it to multiplexes. The screenplay by Stallone and [Matthew Cirulnick](https://www.rogerebert.com/cast-and-crew/matthew-cirulnick) is an unforgivably clunky work in which even the most rudimentary of plot points have been cast aside, the dialogue is embarrassingly heavy-handed (“I want them to know that death is coming”) and the kinetic thrills that made “Rambo: First Blood Part II” watchable have been replaced by over-the-top carnage (made even less effective by the over-reliance on CGI gore). Behind the camera, [Adrian Grunberg](https://www.rogerebert.com/cast-and-crew/adrian-grunberg) (who previously did “Get the Gringo,” a south-of-the-border sleazefest that was made with a certain style and wit) is clearly directing this by the numbers, but, based on the overly dark visual style and clumsy staging, he never gets out of the single digits. Yes, some of the insanely gory bits during the final stretch are amusing in a sick way but even those moments are too little and way too late to help matters much.
 
 Rating: Overall, I would like to give 7/10 for this action movie. You can find the essence of John Rambo in this movie and all the action sequence we have been seeing in his earlier movies. Weekend movie to watch with your family. 
+
+******Click image below to watch trailer******
+
+<iframe width="1211" height="681" src="https://www.youtube.com/embed/km_L0v3C0ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
