@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ishq"
+title: "Kabhi Khusi Kabhi Gham"
 date: 2020-05-14
 description: First review
 image: /assets/images/K3G2001.jpg
