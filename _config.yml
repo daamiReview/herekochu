@@ -71,7 +71,7 @@ plugins:
   - jekyll-youtube
   - jekyll-paginate-v2
   - jekyll-sitemap
-  - jekyll-picture-tag
+  - jekyll_picture_tag
 compress_html:
   clippings: all
   comments: all
