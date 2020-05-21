@@ -14,13 +14,8 @@ layout: default
     {% if page.image %}
       <div class="post__img">
         <div>
-<<<<<<< HEAD
-          {% picture {{ page.image }}  %}
-          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
-=======
           
           <figure class="absolute-bg" style="background-image: url('{%picture {{page.image | split: "/" | last}}%}');"></figure>
->>>>>>> 8616a04e333fa8d366bee881ddd8b4eb596746a3
         </div>
       </div>
     {% endif %}
