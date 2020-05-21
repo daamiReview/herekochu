@@ -13,4 +13,5 @@ package*
 .browser*
 .jekyll-cache
 barber.jpg
+Gemfile.lock
 
