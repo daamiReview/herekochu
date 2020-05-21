@@ -4,19 +4,11 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-<<<<<<< HEAD
-name: JungeeBah
-title: DaamiReview
-description: >
-  DaamiReview stands to just blab about the movies that we have seen
-url: "www.daamireview.com"
-=======
 name: DaamiReview
 title: DaamiReview
 description: >
   DaamiReview stands to just blab about the movies that we have seen
 url: 
->>>>>>> 8616a04e333fa8d366bee881ddd8b4eb596746a3
 twitter_username: thomasvaeth
 default_img: /assets/images/seo.jpg
 social:
@@ -79,11 +71,7 @@ plugins:
   - jekyll-youtube
   - jekyll-paginate-v2
   - jekyll-sitemap
-<<<<<<< HEAD
   - jekyll-picture-tag
-=======
-  - jekyll_picture_tag
->>>>>>> 8616a04e333fa8d366bee881ddd8b4eb596746a3
 compress_html:
   clippings: all
   comments: all
@@ -101,13 +89,9 @@ exclude:
 
 picture:
   source: "assets/images"
-<<<<<<< HEAD
   output: "generated"
   markup_presets:
     default:
       widths: [600, 900, 1200]
       formats: [webp, original]
 
-=======
-  output: "assets/images/generation"
->>>>>>> 8616a04e333fa8d366bee881ddd8b4eb596746a3

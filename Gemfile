@@ -15,11 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem "jekyll-sitemap"
   gem "jekyll-youtube"
-<<<<<<< HEAD
   gem "jekyll-picture-tag"
-=======
-  gem "jekyll_picture_tag"
->>>>>>> 8616a04e333fa8d366bee881ddd8b4eb596746a3
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
