@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: "Kabhi Khushi Kabhie Gham"
+=======
+title: "Kabhi Khusi Kabhi Gham"
+>>>>>>> 8616a04e333fa8d366bee881ddd8b4eb596746a3
 date: 2020-05-14
 description: First review
 image: /assets/images/K3G2001.jpg

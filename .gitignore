@@ -6,6 +6,10 @@ node_modules/
 _site
 .sass-cache
 .jekyll-metadata
+
+.jekyll-cac*
+Gemfile.lock
+_site
 .eslintrc
 .style*
 gulp*
@@ -14,4 +18,3 @@ package*
 .jekyll-cache
 barber.jpg
 Gemfile.lock
-
