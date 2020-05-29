@@ -37,7 +37,8 @@ git push
 ## Recent Change
 * Project has been created
 * Wiki has been created
-  
-## Things to be done
 * Put info in the wiki
 * Add to do task in project
+  
+## Things to be done
+* Prepare for the soft launch
