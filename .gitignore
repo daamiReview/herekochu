@@ -10,7 +10,7 @@ _site
 .style*
 gulp*
 package*
-*.browser
-*.jekyll-cache
+.browser*
+.jekyll-cache
 barber.jpg
 
