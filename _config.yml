@@ -1,28 +1,27 @@
 # Site/SEO settings
-email: us@daamireview.com
-baseurl: "www.daamireview.com"
+email: okay@samesies.io
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-name: Daami Review
-title: Daami Review
+name: DaamiReview
+title: DaamiReview
 description: >
   DaamiReview stands to just blab about the movies that we have seen
-url:
-twitter_username: daamireview
-default_img: /assets/images/placeholder-9.jpg
+url: 
+twitter_username: thomasvaeth
+default_img: /assets/images/seo.jpg
 social:
-  - name: Twitter
-    url: https://twitter.com/DaamiReview
-  - name: Instagram
-    url: https://www.instagram.com/daamireview/
-  - name: Facebook
-    url: https://www.facebook.com/daami.review.3
-  - name: YouTube
-    url: https://www.youtube.com/channel/UC_0ezAIoT768C1C_Xa2IeWw/
-  - name: Codepen
-    url: https://codepen.io/daamireview
-
+  - name: twitter
+    url: https://twitter.com/thomasvaeth
+  - name: instagram
+    url: https://www.instagram.com/thomas.vaeth/
+  - name: linkedin
+    url: https://www.linkedin.com/in/thomasvaeth/
+  - name: github
+    url: https://github.com/samesies
+  - name: codepen
+    url: https://codepen.io/thomasvaeth/
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
@@ -32,14 +31,14 @@ formcarry: https://formcarry.com/s/HkIo0nMb7
 disqus: test-apkdzgmqhj
 
 # MailChimp settings
-mailchimp_action: https://daamireview.us18.list-manage.com/subscribe/post?u=83cd049598bdcd3a129422398&amp;id=e8d0e99897
-mailchimp_input: b_83cd049598bdcd3a129422398_e8d0e99897
+mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
+mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
 author:
-  - name: Daami Review Team
-    bio: HerekoChau stands to just blab about the movies that we have seen.
-    url: http://www.daamireview.com
+  - name: Thomas Vaeth
+    bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
+    url: http://thomasvaeth.com
 
 # Pagination settings
 pagination:
