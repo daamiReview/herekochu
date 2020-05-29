@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: us@daamireview.com
-baseurl: "www.daamireview.com"
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
