@@ -8,7 +8,10 @@ name: Daami Review
 title: Daami Review
 description: >
   DaamiReview stands to just blab about the movies that we have seen
-url: 
+url:
+twitter_username: thomasvaeth
+default_img: /assets/images/seo.jpg
+social:
   - name: Twitter
     url: https://twitter.com/DaamiReview
   - name: Instagram
