@@ -1,5 +1,5 @@
 # Site/SEO settings
-email: us@gmail.com
+email: us@daamireview.com
 baseurl: "www.daamireview.com"
 permalink: /:year/:month/:day/:title/
 google_analytics: 
