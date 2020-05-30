@@ -25,4 +25,11 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+  - name: disable development branch merge
+    conditions:
+      - head=development
+      - base=master
+    actions:
+      close:
+        message: This pull request cannot be merged as Development cannot be merged to master 🙏
 
