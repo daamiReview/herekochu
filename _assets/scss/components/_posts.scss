@@ -37,7 +37,7 @@
       }
 
       @media screen and (min-width: $mq-med) and (max-width: $mq-xlarge) {
-        content: '2 .column.posts-half';
+        content: '4 .column.posts-half';
       }
 
       @media screen and (min-width: $mq-xlarge) {
@@ -89,8 +89,9 @@
 
   &__text {
     @extend %font-size;
-
+    line-height: 1.5;
     font-weight: 400;
+    font-size: 0.75em;
   }
 
   &__pagination {
@@ -168,7 +169,7 @@
 }
 
 .posts-half {
-  width: 50%;
+  width: 25%;
 }
 
 .posts-third {
