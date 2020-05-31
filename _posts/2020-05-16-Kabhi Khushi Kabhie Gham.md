@@ -1,5 +1,6 @@
 ---
 layout: post
+rating: 8.5
 title: "Kabhi Khusi Kabhi Gham"
 date: 2020-05-14
 description: First review
