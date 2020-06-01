@@ -68,7 +68,7 @@
     .wrapper {
       position: relative;
       box-shadow: 0 19px 38px rgba(#000, 0.3), 0 15px 12px rgba(#000, 0.2);
-      background-color: #afafaf;
+      background-color: rgba(#000, 0.3);
       
     }
     .rating{
@@ -80,9 +80,11 @@
       background-color: #77d7b9;
       color: #fff;
       padding: 0.8em;
+      
       span {
         display: block;
         text-align: center;
+        
       }
       .day{
         font-weight: 700;
@@ -101,7 +103,6 @@
 
   &__img {
     margin-bottom: 1em;
-
     background-color: $color-lightgrey;
     transition: transform 400ms ease-in-out;
 
