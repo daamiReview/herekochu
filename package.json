@@ -3,7 +3,7 @@
   "description": "DaamiReview is a web review site build on top of barber theme jekyll",
   "version": "0.0.1",
   "scripts": {
-    "start": "bundle exec jekyll serve",
+    "start": "bundle exec jekyll serve --watch",
     "build": "bundle exec jekyll build",
     "deploy": "gulp build && bundle exec jekyll build",
     "gulp": "gulp"
