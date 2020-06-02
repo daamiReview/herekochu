@@ -42,3 +42,4 @@ git push
   
 ## Things to be done
 * Prepare for the soft launch
+* finish tasks on about,homepage ..
