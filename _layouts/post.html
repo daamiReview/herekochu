@@ -15,7 +15,7 @@ layout: default
       <div class="post__img">
         <div>
           
-          <figure class="absolute-bg" style="background-image: url('{%picture {{page.image | split: "/" | last}}%}');"></figure>
+          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
         </div>
       </div>
     {% endif %}
