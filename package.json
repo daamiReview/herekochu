@@ -1,5 +1,5 @@
 {
-  "name": "@daamireview/dammireview",
+  "name": "dammireview",
   "description": "DaamiReview is a web review site build on top of barber theme jekyll",
   "version": "0.0.1",
   "scripts": {

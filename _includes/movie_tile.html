@@ -1,0 +1,77 @@
+<div class="movie-card">
+    <div class="movie-carousel">
+        <div class="card-movie-pic">
+            <img src="{{ page.image }}" alt="{{ page.title }}">
+        </div>
+        <div class="card-movie-discrption">
+            <div class="info-container">
+                <div class="info-container__title">{{page.title}}</div>
+                <div class="info-container__details">
+                    <span class="info-container__details-item">
+                      {{page.movie.release}}
+                    </span>
+                    <span class="info-container__details-item">
+                      {{page.movie.runtime}}
+                    </span>
+                    <span class="info-container__details-item">
+                      {{page.movie.genre | join: " | "}}
+                    </span>
+                    <div class="info-container__movie-data">
+                        <ul>
+                            {% for info in page.movie_person %}
+                                {% for item in info %}
+                                    <li> 
+                                        <div class="movie-detail_box">
+                                            <span class='movie-info_key'> {{item[0]}} </span>
+                                            <span class='movie-info_seperator'>:</span>
+                                            <span class='movie-info_value'>{{item[1] | join: " | "}}</span>
+                                        </div>
+                                        
+                                    </li>
+                                    
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="info-container__rating">{{page.rating}}</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="card-movie-wrapper card-movie-wrapper--centered">
+    <div class="card-movie-carousel">
+        <div class="card-movie-picture">
+            <img src="{{ page.image }}" alt="{{ page.title }}">
+        </div>
+        
+      <div class="card-movie card-movie--light card-movie--looper card-movie--active">
+        <div class="card-movie__content">
+          <div class="card-movie__title">{{page.title}}</div>
+          <div class="card-movie__details">
+            <span class="card-movie__details-item">
+              {{page.movie.release}}
+            </span>
+            <span class="card-movie__details-item">
+              {{page.movie.runtime}}
+            </span>
+            <span class="card-movie__details-item">
+              {{page.movie.genre | join: "|"}}
+            </span>
+            {% for info in page.movie_person %}
+                {% for item in info %}
+                    <ul>
+                       <li> <span class='movie_info_span'> {{item[0]}} : {{item[1] | join: ' | '}}</span></li>
+                    </ul>
+                {% endfor %}
+            {% endfor %}
+            <div class="card-movie__rating">{{page.rating}}</div>
+          </div>
+          </div>
+    </div>
+    </div>
+  </div> -->
