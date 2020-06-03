@@ -7,24 +7,26 @@
             <div class="info-container">
                 <div class="info-container__title">{{page.title}}</div>
                 <div class="info-container__details">
-                    <span class="info-container__details-item">
-                      {{page.movie.release}}
-                    </span>
-                    <span class="info-container__details-item">
-                      {{page.movie.runtime}}
-                    </span>
-                    <span class="info-container__details-item">
-                      {{page.movie.genre | join: " | "}}
-                    </span>
+                    <div class="info-container__details__sub">
+                        <span class="info-container__details-item">
+                            {{page.movie.release}}
+                          </span>
+                          <span class="info-container__details-item">
+                            {{page.movie.runtime}}
+                          </span>
+                          <span class="info-container__details-item">
+                            {{page.movie.genre | join: " | "}}
+                          </span>
+                    </div>
                     <div class="info-container__movie-data">
                         <ul>
                             {% for info in page.movie_person %}
                                 {% for item in info %}
                                     <li> 
                                         <div class="movie-detail_box">
-                                            <span class='movie-info_key'> {{item[0]}} </span>
-                                            <span class='movie-info_seperator'>:</span>
-                                            <span class='movie-info_value'>{{item[1] | join: " | "}}</span>
+                                            <div class='movie-info_key'> {{item[0]}} </div>
+                                            <div class='movie-info_seperator'>:</div>
+                                            <div class='movie-info_value'>{{item[1] | join: " | "}}</div>
                                         </div>
                                         
                                     </li>
