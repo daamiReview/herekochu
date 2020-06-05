@@ -12,7 +12,7 @@ movie:
     - Drama
     - Foreign
 date: 2020-05-14
-description: First review
+description: family love and shit
 image: /assets/images/K3G2001.jpg
 author: dasol
 tags:

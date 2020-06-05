@@ -13,7 +13,7 @@ movie:
     - Thriller
     - Action
 date: 2020-05-16
-description: First review by Adrian Shrestha	
+description: an american with an appetite to kill	
 image: /assets/images/rambolastblood.jpg
 author: Adrian
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: "Rashomon"
 date: 2020-05-03
 language: Japanese
-description: First review
+description: First person narrative
 movie:
   rating: M
   director: Someone
