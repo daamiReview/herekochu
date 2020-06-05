@@ -94,8 +94,8 @@
 
     color: $color-black;
 
-    &:hover {
-      .posts__img {
+    &:hover{
+      .posts__img{
         transform: translate3d(0, -10px, 0);
       }
     }

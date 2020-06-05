@@ -32,9 +32,12 @@
 
   &__title {
     @extend %font-header;
-
+    @media (max-width: $mq-small){
+      font-size: $font-xxsmall;
+    }
     font-size: $font-xsmall;
     color: $color-black;
+    
   }
 
   &__list {
@@ -42,6 +45,7 @@
 
     display: flex;
     align-items: center;
+   
 
     & > * {
       @extend .header__title;
