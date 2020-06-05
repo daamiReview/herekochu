@@ -2,16 +2,17 @@
   <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
     {% if post.image %}
       <div class="wrapper">
-        <div class="rating aos-animate aos-init" data-aos="fade-in">
-          <span class="day" data-aos="fade-in">{{ post.rating }}</span>
-        </div>
+        
         <figure class="posts__img">
+          <div class="rating aos-animate aos-init" data-aos="fade-in">
+            <span class="day" data-aos="fade-in">{{ post.rating }}</span>
+          </div>
           <img src="{{ post.image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/>
         </figure>
     </div>
     {% endif %}
     <div>
-      <h2 class="posts__text"><strong itemprop="name">{{ post.title }}</strong> — <span itemprop="description">{{ post.content | strip_html | truncatewords: 35, "" }}</span></h2>
+      <!-- <h2 class="posts__text"><strong itemprop="name">{{ post.title }}</strong> — <span itemprop="description">{{ post.content | strip_html | truncatewords: 35, "" }}</span></h2> -->
     </div>
   </a>
 </article>
