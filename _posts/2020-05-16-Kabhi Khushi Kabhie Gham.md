@@ -2,6 +2,15 @@
 layout: post
 rating: 8.5
 title: "Kabhi Khusi Kabhi Gham"
+language: Hindi
+movie:
+  rating: M
+  director: Someone
+  Starring: this,that,him/her,who knows
+  Writer: who know
+  genre: 
+    - Drama
+    - Foreign
 date: 2020-05-14
 description: First review
 image: /assets/images/K3G2001.jpg

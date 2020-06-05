@@ -2,6 +2,16 @@
 layout: post
 rating: 7.0
 title: "Rambo: Last Blood"
+language: English
+movie:
+  rating: M
+  director: Someone
+  Starring: this,that,him/her,who knows
+  Writer: who knows
+  genre: 
+    - Drama
+    - Thriller
+    - Action
 date: 2020-05-16
 description: First review by Adrian Shrestha	
 image: /assets/images/rambolastblood.jpg

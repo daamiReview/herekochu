@@ -2,9 +2,17 @@
 layout: post
 title: "Rashomon"
 date: 2020-05-03
+language: Japanese
 description: First review
-rating: 9.0
-film-rating: M
+movie:
+  rating: M
+  director: Someone
+  Starring: this,that,him/her,who knows
+  Writer: who knows
+  genre: 
+    - Drama
+    - Crime
+rating: 9.5
 image: /assets/images/Rashomon.jpg
 author: Jungee
 tags:
