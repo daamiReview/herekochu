@@ -5,6 +5,7 @@ date: 2020-05-03
 language: Japanese
 description: First person narrative
 movie:
+  name: Rashomon
   rating: M
   director: Someone
   Starring: this,that,him/her,who knows
@@ -12,6 +13,7 @@ movie:
   genre: 
     - Drama
     - Crime
+    - ABC
 rating: 9.5
 image: /assets/images/Rashomon.jpg
 author: Jungee
@@ -20,6 +22,7 @@ tags:
   - Foreign
   - Drama
   - Crime
+  - ABC
 ---
 
 The biggest hit movie of the year is surely a thrilling movie on it's own. The cast are fantastic and the satire in the film is good. I will give it a score of 9/10 for satire and 7/10 for direction. The characters are nicely placed and everything is fine.
