@@ -18,6 +18,8 @@ author: Jungee
 tags:
   - korean
   - Foreign
+  - Comedy
+  - Drama
 ---
 
 

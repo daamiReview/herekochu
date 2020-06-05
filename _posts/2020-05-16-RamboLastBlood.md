@@ -18,8 +18,9 @@ image: /assets/images/rambolastblood.jpg
 author: Adrian
 tags:
   - English
-
-
+  - Drama
+  - Thriller
+  - Action
 ---
 
 Vietnam War veteran John Rambo tries to find some semblance of peace by raising horses on a ranch in Arizona. He's also developed a special familial bond with a woman named Maria and her teenage granddaughter Gabriela. But when a vicious Mexican cartel kidnaps Gabriela, Rambo crosses the border on a bloody and personal quest to rescue her and punish those responsible.

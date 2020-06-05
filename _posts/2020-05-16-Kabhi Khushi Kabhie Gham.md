@@ -18,8 +18,8 @@ author: dasol
 tags:
   - Hindi
   - Foreign
-
-
+  - Drama
+  - Foreign
 ---
 
 Not Rated, 3h 30min
