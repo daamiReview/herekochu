@@ -12,6 +12,15 @@ movie:
     - Drama
     - Thriller
     - Action
+cast-crew:
+  director: Adrian Grunberg
+  Screen Play: 
+    - Sylvester Stallone
+    - Matt Cirulnick
+  Starring: 
+    - Sylvester Stallone
+    - Adriana Barraza
+    - Yvette Monreal
 date: 2020-05-16
 description: an american with an appetite to kill	
 image: /assets/images/rambolastblood.jpg

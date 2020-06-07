@@ -1,6 +1,13 @@
 //----------------------------------------------
 // Post
 //---------------------------------------------- 
+$box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
 .post {
 
   // .amp-template & {
@@ -10,46 +17,111 @@
   &__header {
     @extend %text-center;
 
-    border-bottom: $border;
+    // border-bottom: $border;
   }
 
-  &__date {
-    @extend %font-header;
-
-    display: block;
-    margin-top: 0.45em;
-
-    font-size: $font-xsmall;
-  }
-
-  &__img {
-    height: 25em;
-    padding: 1em;
-
-    @media (min-width: $mq-small) {
-      height: 36em;
-      padding: 2em;
-    }
-
-    @media (min-width: $mq-med) {
-      height: calc(100vh - 3em);
-      min-height: 110em;
-    }
-
-    & > * {
+  .movie{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    &__image{
       position: relative;
+      height: auto;
+      border-radius: 3px;
+      @media (min-width: $mq-large) {
+        width: 400px
+      }
+      @media (min-width: $mq-med) {
+        width: 250px
+      }
+      width: 200px;
+      background-color: #393e46;
+      margin: 1em;
+      .border{
+        position: absolute;
+        border: 1px solid mintcream;
+        margin: 0.3em;
+        box-shadow: 10px 10px 10px black;
+        border-radius: 3px;
+        width: 95%;
+        height: 96%;
+        z-index: 20;
+        opacity: 0.4;
+      }
+      img{
+        border-radius: 3px;
+        margin: auto;
+        object-fit: cover;
+        box-shadow: $box-shadows
+      }
+    }
+    &__info{
+      background-color: #eeeeee;
+      position: relative;
+      max-width:330px;
+      max-height: 200px;
+      padding-top: 1em;
+      border-radius: 5px;
+      margin:1em;
+      box-shadow:$box-shadows;
+      .movie-header{
+        position: relative;
+        &__bar{
+          position: absolute;
+          width: 100%;
+          height: 20px;
+          background-color: #0bbcd6;
 
-      height: 100%;
-      width: 100%;
-
-      background-color: $color-lightgrey;
+        }
+        &__overlay{
+          height: 20px;
+          width:100%;
+          position: absolute;
+          background-color: #0BBCD6;
+        }
+        &__text{
+          position: absolute;
+          background-color: #eeeeee;
+          margin-left: 2em;
+          padding: .3em;
+          top: -.3em;
+          border-radius: 2px;
+          h5{
+            color: #1b1c1d;
+          }
+        }
+      }
+      .info-container__movie-data{
+        margin-top: 0.5em;
+        @media (max-width: $mq-small) {
+          font-size: 11px;
+        }
+        
+        font-size: 12px;
+        color: #1b1c1d;
+        padding: 2em;
+        line-height: 1.3em;
+        ul{
+          span{
+            color: #888888;
+            text-transform: capitalize;
+          }
+          font-size: 1em;
+          list-style-type: none;
+          .movie-detail_box{
+              .movie-info{
+                  &_key{
+                      position: absolute;
+                  }
+              }
+          }
+      }
+      }
     }
   }
-
-  // &__amp-img {
-  //   padding: 1em;
-  // }
-
+ 
   &__content {
     border-top: $border;
   }
