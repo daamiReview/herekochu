@@ -26,41 +26,79 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    &__image{
-      position: relative;
-      height: auto;
-      border-radius: 3px;
-      @media (min-width: $mq-large) {
-        width: 400px
-      }
-      @media (min-width: $mq-med) {
-        width: 250px
-      }
-      width: 200px;
-      background-color: #393e46;
-      margin: 1em;
-      .border{
-        position: absolute;
-        border: 1px solid mintcream;
-        margin: 0.3em;
-        box-shadow: 10px 10px 10px black;
+    .movie-box{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      &__image{
+        position: relative;
+        height: auto;
         border-radius: 3px;
-        width: 95%;
-        height: 96%;
-        z-index: 20;
-        opacity: 0.4;
+        @media (min-width: $mq-large) {
+          width: 400px
+        }
+        @media (min-width: $mq-med) {
+          width: 250px
+        }
+        width: 200px;
+        background-color: #393e46;
+        margin: 1em;
+        object-fit: fill;
+        .border{
+          position: absolute;
+          border: 1px solid mintcream;
+          margin: 0.3em;
+          box-shadow: 10px 10px 10px black;
+          border-radius: 3px;
+          width: 95%;
+          height: 96%;
+          z-index: 20;
+          opacity: 0.4;
+        }
+        img{
+          border-radius: 3px;
+          margin: auto;
+          
+          box-shadow: $box-shadows
+        } 
       }
-      img{
-        border-radius: 3px;
-        margin: auto;
-        object-fit: cover;
-        box-shadow: $box-shadows
+      .movie-about{
+        @media (max-width: $mq-small) {
+          padding-top: 13em;
+        }
+        @media (min-width: $mq-small) and (max-width: $mq-med) {
+          padding-top: 12.5em;
+        }
+        padding-top: 15.5em;
+        &__data{
+          font-size: 80%;
+          &__rating{
+            border-width: 1em;
+            width: auto;
+            background: black;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            border-radius: 2px;
+            color: white;
+            span{
+              margin: 0 auto;
+            }
+          }
+        }
       }
     }
     &__info{
       background-color: #eeeeee;
       position: relative;
-      max-width:330px;
+      @media (max-width: $mq-med) {
+        max-width: 300px;
+      }
+      // @media (min-width: $mq-small) and (max-width: $mq-med) {
+      //   max-width: 370px;
+      // }
+      max-width:370px;
       max-height: 200px;
       padding-top: 1em;
       border-radius: 5px;
@@ -73,7 +111,6 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
           width: 100%;
           height: 20px;
           background-color: #0bbcd6;
-
         }
         &__overlay{
           height: 20px;
@@ -94,14 +131,14 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         }
       }
       .info-container__movie-data{
-        margin-top: 0.5em;
+        margin-top: 1.5em;
         @media (max-width: $mq-small) {
           font-size: 11px;
         }
         
         font-size: 12px;
         color: #1b1c1d;
-        padding: 2em;
+        padding: 1.4em;
         line-height: 1.3em;
         ul{
           span{

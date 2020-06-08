@@ -12,10 +12,29 @@ comments: true
     </div>
 
     <div class="movie">
-      <div class="movie__image">
-        <div class="border"></div>
-        <img src="{{ page.image }}" alt="">
+      <div class="movie-box">
+        <div class="movie-box__image">
+          <div class="border"></div>
+          <img src="{{ page.image }}" alt="">
+        </div>
+        <div class="movie-about">
+          <div class="movie-about__data">
+              <div class="movie-about__data__rating">
+                <span>{{page.movie.rating}}</span>
+              </div>
+              <div class="movie-about__data__genre">
+                {{ page.movie.genre | join: " | "}}
+              </div>
+              <div class="movie-about__data__length">
+                {{page.movie.length}}
+              </div>
+              <div class="movie-about__data__language">
+                {{page.language}}
+              </div>
+          </div>
+        </div>
       </div>
+      
       <div class="movie__info">
         <div class="movie-header">
           <div class="movie-header__bar">
