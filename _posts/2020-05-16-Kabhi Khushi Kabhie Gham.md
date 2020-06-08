@@ -4,13 +4,21 @@ rating: 8.5
 title: "Kabhi Khusi Kabhi Gham"
 language: Hindi
 movie:
-  rating: M
-  director: Someone
-  Starring: this,that,him/her,who knows
-  Writer: who know
+  rating: G
+  length: 210 mins
   genre: 
     - Drama
     - Foreign
+cast-crew:
+  Director: Karan Johar
+  Writer: Karan Johar
+  Starring:
+    - Amitabh Bachchan
+    - Jaya Bachchan
+    - Shah Rukh Khan
+    - Kajol
+    - Hrithik Roshan
+    - Kareena Kapoor
 date: 2020-05-14
 description: family love and shit
 image: /assets/images/K3G2001.jpg
@@ -21,8 +29,6 @@ tags:
   - Drama
   - Foreign
 ---
-
-Not Rated, 3h 30min
 
 - Directed By: Karan Johar
 - Written By: Karan Johar

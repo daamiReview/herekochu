@@ -4,12 +4,26 @@ title: "Dunkirk"
 language: English
 movie:
   rating: M
-  director: Someone
-  Starring: this,that,him/her,who knows
-  Writer: who knows
+  length: 106 mins
   genre: 
     - Drama
     - War
+cast-crew:
+  director: Christopher Nolan
+  Produced:
+    - Christopher Nolan
+    - Emma Thomas
+  Written: Christopher Nolan
+  Starring: 
+    - Fionn Whitehead
+    - Tom Glynn-Carney
+    - Jack Lowden
+    - Harry Styles
+    - Aneurin Barnard
+    - James D'Arcy
+    - Barry Keoghan
+    - Kenneth Branagh
+    - Cillian Murphy
 rating: 9.0
 date: 2020-05-04
 description: When war comes home 

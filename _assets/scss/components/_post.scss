@@ -46,6 +46,10 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
       margin-left: 15em;
       grid-template-rows: 200px 1fr;
     }
+    @media (min-width: $mq-large){
+      margin-left: 15em;
+      grid-template-rows: 300px 1fr;
+    }
     &__image{
       @media (min-width: $mq-small) {
         grid-area: image;

@@ -6,12 +6,23 @@ language: Japanese
 description: First person narrative
 movie:
   rating: M
-  director: Someone
-  Starring: this,that,him/her,who knows
-  Writer: who knows
+  length: 88 minutes
   genre: 
     - Drama
     - Crime
+cast-crew:
+  director: Akira Kurosawa
+  Produced: Minoru Jingo
+  Starring: 
+    - Toshiro Mifune
+    - Machiko Kyō
+    - Masayuki Mori
+    - Takashi Shimura
+    - Minoru Chiaki
+  ScreenPlay:
+    - Akira Kurosawa
+    - Shinobu Hashimoto
+  
 rating: 9.5
 image: /assets/images/Rashomon.jpg
 author: Jungee
