@@ -13,7 +13,7 @@ movie:
     - Drama
     - Crime
 rating: 9.5
-image: /assets/images/rsz_rashomon.jpg
+image: /assets/images/Rashomon.jpg
 author: Jungee
 tags:
   - Japanese
