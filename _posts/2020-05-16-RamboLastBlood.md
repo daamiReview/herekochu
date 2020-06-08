@@ -12,6 +12,7 @@ movie:
     - Drama
     - Thriller
     - Action
+  length: 165 min
 cast-crew:
   director: Adrian Grunberg
   Screen Play: 

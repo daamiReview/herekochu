@@ -11,8 +11,47 @@ comments: true
       </div>
     </div>
 
-    <div class="movie">
-      <div class="movie-box">
+    <div class="movie-info-container">
+      <div class="movie-info-container__image">
+        <div class="border"></div>
+        <img src="{{ page.image }}" alt="">
+      </div>
+      <div class="movie-info-container__data">
+        <div class="contain-data">
+          <div class="contain-data__rating">
+            <span>{{page.movie.rating}}</span>
+          </div>
+          <div class="contain-data__genre data-text">
+            {{ page.movie.genre | join: " | "}}
+          </div>
+          <div class="contain-data__length data-text">
+            {{page.movie.length}}
+          </div>
+          <div class="movie-about__data__language data-text">
+            {{page.language}}
+          </div>
+        </div>
+      </div>
+      <div class="movie-info-container__cast">
+        <div class="movie-header">
+          <div class="movie-header__bar">
+          </div>
+          <div class="movie-header__overlay"></div>
+          <div class="movie-header__text">
+            <h5>Cast & Crew</h5>
+          </div>
+        </div>
+        <div class="movie-data">
+          <ul>
+              {% for info in page.cast-crew %}
+                      <li> 
+                           <span>{{ info[0] }}</span>: {{ info[1] | join: " | " }} 
+                      </li> 
+              {% endfor %}
+          </ul>
+      </div>
+      </div>
+      <!-- <div class="movie-box">
         <div class="movie-box__image">
           <div class="border"></div>
           <img src="{{ page.image }}" alt="">
@@ -53,7 +92,7 @@ comments: true
               {% endfor %}
           </ul>
       </div>
-      </div>
+      </div> -->
     </div>
     
     <div class="post__content section-padding">
