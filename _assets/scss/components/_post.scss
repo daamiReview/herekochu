@@ -44,12 +44,7 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     }
     @media (min-width: $mq-med){
       margin-left: 15em;
-      grid-template-rows: 200px 1fr;
-    }
-    @media (min-width: $mq-large){
-      margin-left: 15em;
-      grid-template-rows: 250px 1fr;
-      grid-template-columns: min-content(300px,1fr) 1fr;
+      grid-template-rows: 300px 1fr;
     }
     &__image{
       @media (min-width: $mq-small) {
@@ -60,10 +55,10 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         align-self: end;
         max-height: 290px;
         border-radius: 3px;
-        display: inline-block;
         @media (min-width: $mq-med) {
           width: 300px;
           max-height: 450px;
+          align-self: end;
         }
         width: 200px;
         background-color: #393e46;
@@ -77,6 +72,7 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
           width: 95%;
           @media (min-width: $mq-med) {
             height: 98%;
+            width: 97%;
           }
           height: 96%;
           z-index: 20;
@@ -133,6 +129,7 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
       grid-column: movie-info;
       display: grid;
       position: relative;
+      align-self: center;
       grid-template-rows: 40px auto ;
       border-radius: 5px;
       .movie-header{
