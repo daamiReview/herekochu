@@ -48,29 +48,26 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     }
     @media (min-width: $mq-large){
       margin-left: 15em;
-      grid-template-rows: 300px 1fr;
+      grid-template-rows: 250px 1fr;
+      grid-template-columns: min-content(300px,1fr) 1fr;
     }
     &__image{
       @media (min-width: $mq-small) {
         grid-area: image;
         align-self: center;
       }
-      position: relative;
-      align-self: end;
-        // height: auto;
+        position: relative;
+        align-self: end;
         max-height: 290px;
         border-radius: 3px;
         display: inline-block;
-        @media (min-width: $mq-large) {
-          width: 400px
-        }
         @media (min-width: $mq-med) {
-          width: 250px
+          width: 300px;
+          max-height: 450px;
         }
         width: 200px;
         background-color: #393e46;
-        // margin: 1em;
-        object-fit: fill;
+        object-fit: cover;
         .border{
           position: absolute;
           border: 1px solid mintcream;
@@ -78,6 +75,9 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
           box-shadow: 10px 10px 10px black;
           border-radius: 3px;
           width: 95%;
+          @media (min-width: $mq-med) {
+            height: 98%;
+          }
           height: 96%;
           z-index: 20;
           opacity: 0.4;
@@ -106,12 +106,13 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         align-self: end;
         grid-area: three;
         &__rating{
-            background: black;
-            width: 26px;
-            height: 26px;
+            display:inline-block;
+            padding: 0 0.2em;
             text-align: center;
+            height: 26px;
             border-radius: 2px;
             color: white;
+            background-color: black;
             span{
               margin: 0 auto;
             }
@@ -127,7 +128,7 @@ $box-shadows: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         grid-column: movie-cast;
       }
       @media (min-width: $mq-small) {
-        max-width: 370px;
+        max-width: 410px;
       }
       grid-column: movie-info;
       display: grid;
