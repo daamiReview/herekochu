@@ -1,7 +1,8 @@
 ---
 layout: post
 rating: 7.0
-title: "Rambo: Last Blood"
+title: 'Rambo: Last Blood'
+movie_name: 'Rambo: Last Blood'
 language: English
 movie:
   rating: M

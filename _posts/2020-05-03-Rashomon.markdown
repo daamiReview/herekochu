@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Rashomon"
+title: Rashomon
+movie_name: Rashomon
 date: 2020-05-03
 language: Japanese
 description: First person narrative
@@ -21,8 +22,7 @@ cast-crew:
     - Minoru Chiaki
   ScreenPlay:
     - Akira Kurosawa
-    - Shinobu Hashimoto
-  
+    - Shinobu Hashimoto 
 rating: 9.5
 image: /assets/images/Rashomon.jpg
 author: Jungee

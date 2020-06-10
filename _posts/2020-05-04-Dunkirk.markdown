@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Dunkirk"
+title: Dunkirk
+movie_name: Dunkirk
 language: English
 movie:
   rating: M

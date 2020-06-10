@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Parasite"
+title: Parasite
+movie_name: Parasite
 rating: 9.0
 language: Korean
 movie:
