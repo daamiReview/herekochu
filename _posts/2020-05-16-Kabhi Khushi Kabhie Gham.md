@@ -1,7 +1,7 @@
 ---
 layout: post
-rating: 8.5
 title: "Kabhi Khusi Kabhi Gham"
+rating: 8.5
 date: 2020-05-14
 description: First review
 image: /assets/images/K3G2001.jpg

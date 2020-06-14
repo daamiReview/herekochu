@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chennai Express"
+rating: 6.5
 date: 2020-05-20
 description: First review
 image: /assets/images/ChennaiExpress.jpg

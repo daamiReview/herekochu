@@ -1,7 +1,7 @@
 ---
 layout: post
-rating: 7.0
 title: "Rambo: Last Blood"
+rating: 7.0
 date: 2020-05-16
 description: First review by Adrian Shrestha	
 image: /assets/images/rambolastblood.jpg
