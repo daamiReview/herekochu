@@ -24,7 +24,8 @@ social:
     url: https://codepen.io/daamireview
 
 # Contact settings
-contact_img: /assets/images/placeholder-28.jpg
+contact_img: /assets/images/Contact_Image.jpg
+
 formcarry: https://formcarry.com/s/WrLrNud_LvLT
 
 # Disqus settings
@@ -85,3 +86,4 @@ exclude:
   - package.json
   - README.md
   - vendor
+

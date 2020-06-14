@@ -3,6 +3,8 @@ layout: post
 title: "Rashomon"
 date: 2020-05-03
 description: First review
+rating: 9.0
+film-rating: M
 image: /assets/images/Rashomon.jpg
 author: Jungee
 tags:

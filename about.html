@@ -1,0 +1,41 @@
+---
+layout: default
+title: About
+---
+<section class="about">
+    <div class="about__header">
+        <div class="about__header_text">
+            <h2>{{page.title}}</h2>
+        </div>
+    </div>
+
+    <div class="about__aboutDescription">
+            {{site.data.aboutDescription.descriptionText}}
+   </div>    
+    <div class="about__team_heading">
+        <div class="about__team_heading_text">
+            <h2>Team</h2>
+        </div>
+    </div>
+    
+    {% for member in site.data.members %} 
+        <div class="about__individual">
+                    
+            <div class="about__individual_image">
+                <img src="{{ member.picture }}" alt="{{ member.name }}">
+            </div>
+          
+            <div class="about__individual_info">
+                <div class="about__individual_info_box">
+                    <h5>{{member.name}}</h5>      
+                    <h6>{{member.post }}</h6>
+                    <h6>{{member.email}}</h6>
+                </div>
+            </div>
+            <div class="about__individual_info_bio">
+                <p>{{member.bio}}</p>
+            </div>
+            
+        </div>
+    {% endfor %} 
+</section>

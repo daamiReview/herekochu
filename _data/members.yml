@@ -1,0 +1,35 @@
+- name: Biwash Shrestha
+  post: Founder
+  email: bshrestha@daamireview.com
+  bio: Biwash is a movie enthusiasts who loves watching movies and series from different genre and languages. He has nearly over a decade of experience in film criticisms and analysis. simple and easy from a reviewer's point of view.
+  picture: /assets/images/BiwashShrestha.jpg
+
+- name: BijendraBasnet
+  post: System Architect
+  email: bjndra@daamireview.com
+  bio: This is Bijendra Basnet and I am a System Architect for this project. As filmgoers, we obviously prefer good movies over bad ones, but when it comes to reviews, it's always more fun to read a tear-down of a truly crappy movie.  
+  picture: /assets/images/BijendraBasnet.jpg
+
+- name: Deepak Adhikari
+  post: Developer
+  email: dasol@daamireview.com
+  bio: While movie review allows writers to express their opinions about some film or documentary, there is also the need for the unbiased and objective approach. I am trying to do something that makes other people to determine whether someone will want to see the movie or not.
+  picture: /assets/images/DeepakAdhikari.jpg
+
+- name: Roshan Pariyar
+  post: Project Manager
+  email: proshan@daamireview.com
+  bio: Film review should be detailed enough to provide assistance in making an honest decision i.e. whether the reader wants to see it or if they’d like it.
+  picture: /assets/images/RoshanPariyar.jpg
+
+- name: Buddhi Jung Gurung
+  post: UX Designer
+  email: haraaekoemail@daamireview.com
+  bio: This is Buddhi Jung Gurung and I am a System Architect for this project. I like dogs and cats
+  picture: /assets/images/BuddhiJungGurung.jpg
+
+- name: Arjun Gharti
+  post: Developer
+  email: haraaekoemail@daamireview.com
+  bio: This is Arjun Gharti and I am a System Architect for this project. I like dogs and cats
+  picture: /assets/images/ArjunGharti.jpg
