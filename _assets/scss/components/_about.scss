@@ -1,0 +1,182 @@
+.about{
+    &__header{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #048ea3;
+        &_text{
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            background-color: #ffffff;
+        }
+    }
+
+    &__aboutDescription{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 1em 2em 1em 2em;
+        font-weight: 400;
+    }
+
+    &__team_heading{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #048ea3;
+        &_text{
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            background-color: #ffffff;
+        }
+    }
+
+    &__individual
+    {
+        display: grid;
+        @media (min-width: $mq-med) 
+        {
+            grid-template-columns: 350px 1fr;
+            grid-template-rows: 390px;
+            margin: 1em 5em 2em 4em;
+        }
+
+        @media (min-width: $mq-kindlesize) 
+        {
+            grid-template-columns: 350px 1fr;
+            grid-template-rows: 435px;
+            margin: 1em 5em 2em 4em;
+        }
+      
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 285px;
+        margin: -2em 1em 1em 1em ;
+
+        &_image
+        {
+            align-self: end;
+            position: relative;
+            @media (min-width: $mq-med) 
+            {
+                width: 300px;
+                max-height: 450px;
+                align-self: end;
+            }           
+        }
+
+        &_info_bio
+        {
+            grid-column: span 2;
+        }
+
+        &_info
+        {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: "info1" "info2" "info3";
+            &_box
+            {
+                align-self: end;
+                grid-area: info3;
+                padding-left: 0.5em;
+                font-size: 120%;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .about{
+//     display: grid;
+//     &__header{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         border-bottom: 1px solid rgba(0,0,0,.1);
+//     }
+//     &__aboutDescription{
+//         display: flex;
+//         padding: 1em 2em;
+//         align-items: center;
+//         justify-content: center;
+//         @media (min-width: 75em){
+//             font-size: 98%;
+//         }
+//     }
+//     &__us{
+//         border-top: 1px solid rgba(0,0,0,.1);
+//         padding: 3em 2em;
+//         &_content{
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//         }
+//     }
+//     &__team_heading{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+//     &__individual{
+//         display: grid;
+//         grid-template-columns: 300px 500px;
+//         grid-template-rows: 368px;
+//         grid-gap: 20px;
+//         position: relative;
+//         padding: 2em 2em;
+//         align-items: center; 
+//         justify-content: center;
+//         &_image{
+//             position: relative;
+//             display: block;            
+//             img{
+//                 border-radius: 2px;                
+//                 @media (min-width: 200px){                    
+//                     max-width: 100%;
+//                 }
+//                 vertical-align: middle;
+//                 vertical-align: bottom;
+//             }
+//         }
+//         &_info{
+//             padding-left: -3em;
+//             font-size: 150%;
+//             @media (min-width: $mq-xsmall){
+//                 h3{
+//                     font-size: 63%;
+//                 }
+//                 h4{
+//                     font-size: 40%;
+//                 }
+//                 p{
+//                     font-size: 0.6em;
+//                 }
+//             }
+//         }
+//     }
+// }
