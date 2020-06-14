@@ -3,11 +3,10 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-color: #048ea3;
         &_text{
             padding-left: 0.5em;
             padding-right: 0.5em;
-            background-color: #ffffff;
+            
         }
     }
 
@@ -23,11 +22,10 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-color: #048ea3;
         &_text{
             padding-left: 0.5em;
             padding-right: 0.5em;
-            background-color: #ffffff;
+            color: #048ea3;
         }
     }
 
@@ -43,7 +41,7 @@
 
         @media (min-width: $mq-kindlesize) 
         {
-            grid-template-columns: 350px 1fr;
+            grid-template-columns: 325px 1fr;
             grid-template-rows: 435px;
             margin: 1em 5em 2em 4em;
         }
