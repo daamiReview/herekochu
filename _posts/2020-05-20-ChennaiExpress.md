@@ -1,33 +1,38 @@
 ---
 layout: post
-title: "Chennai Express"
+title: Chennai Express
 rating: 6.5
+language: Hindi
+Spoiler: true
+movie_name: Chennai Express
+movie:
+  genre: 
+    - Drama
+    - Comedy
+  length : 141 min
+  rating: U
+  Box-office: Blockbuster
+cast-crew:
+  director: Rohit Shetty
+  Starring: 
+    - Shah Rukh Khan
+    - Deepika Padukone
+    - Niketan Dheer
+    - Sathyaraj
+  Writer: 
+    - Yunus Sajawal
 date: 2020-05-20
-description: First review
 image: /assets/images/ChennaiExpress.jpg
 author: dasol
 tags:
   - Hindi
   - Foreign
-
-
-
-
+  - Drama
+  - Comedy
 ---
-
-Not Rated 2 Hr 21 Min
-
-- Directed By: Rohit Shetty
-- Written By: Yunus Sajawal
-- Starring:
-  - Shah Rukh Khan
-  - Deepika Padukone
-  - Niketan Dheer
-  - Sathyaraj
 - In Theaters: Aug 09, 2013 
 - Production Company: Red Chillies Entertainment
 - Distributed By: UTV Motion Pictures
-- Box Office Verdict: **Blockbuster**
 
 Chennai Express is an action comedy film serves as a charming introduction to audiences who are new to the Bollywood genre, those well studied in the history of Shah Rukh Khan movies will be most rewarded, since the screenplay  by Yunus Sajawal and songs  by Vishal-Shekhar make dozens of references to his earlier films. Khan and Padukone, reuniting after the memorable 2007 romance Om Shanti Om, are beautifully paired. 
 

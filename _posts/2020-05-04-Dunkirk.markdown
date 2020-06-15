@@ -1,14 +1,40 @@
 ---
 layout: post
-title: "Dunkirk"
+title: Dunkirk
+movie_name: Dunkirk
+language: English
+movie:
+  rating: M
+  length: 106 mins
+  genre: 
+    - Drama
+    - War
+cast-crew:
+  director: Christopher Nolan
+  Produced:
+    - Christopher Nolan
+    - Emma Thomas
+  Written: Christopher Nolan
+  Starring: 
+    - Fionn Whitehead
+    - Tom Glynn-Carney
+    - Jack Lowden
+    - Harry Styles
+    - Aneurin Barnard
+    - James D'Arcy
+    - Barry Keoghan
+    - Kenneth Branagh
+    - Cillian Murphy
 rating: 9.0
 date: 2020-05-04
-description: First review
+description: When war comes home 
 image: /assets/images/dunkirk.jpg
 author: Jungee
 tags:
   - English
   - Foreign
+  - Drama
+  - War
 ---
 
 The biggest hit movie of the year is surely a thrilling movie on it's own. The cast are fantastic and the satire in the film is good. I will give it a score of 9/10 for satire and 7/10 for direction. The characters are nicely placed and everything is fine.
