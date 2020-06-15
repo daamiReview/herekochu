@@ -6,9 +6,6 @@ movie_name: 'Rambo: Last Blood'
 language: English
 movie:
   rating: M
-  director: Someone
-  Starring: this,that,him/her,who knows
-  Writer: who knows
   genre: 
     - Drama
     - Thriller
@@ -21,8 +18,12 @@ cast-crew:
     - Matt Cirulnick
   Starring: 
     - Sylvester Stallone
+    - Paz Vega
+    - Sergio Peris-Mencheta
     - Adriana Barraza
     - Yvette Monreal
+    - Joaquín Cosío
+    - Oscar Jaenada
 date: 2020-05-16
 description: an american with an appetite to kill	
 image: /assets/images/rambolastblood.jpg

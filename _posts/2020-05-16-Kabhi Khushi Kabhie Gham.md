@@ -28,7 +28,6 @@ tags:
   - Hindi
   - Foreign
   - Drama
-  - Foreign
 ---
 
 K3G (Kabhi Khushi Kabhie Gham) is a complete family drama movie that deals with the issues of upper and lower class distinction and the marriage between the classes. Yashvardhan Raichand (Amitabh Bachchan) is a famous, wealthy Indian businessman. He and his wife Nandini (Jaya Badhuri) adopted a baby, Rahul (Shah Rukh Khan), and raised him as their own. After nine years they get a natural son, Rohan (Hrithik Roshan). Rahul was beloved and always do the stuffs that are in favor of his parent and make them proud.
