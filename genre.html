@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<section class="mast section-padding--double">
+    <div class="grid">
+      <h2>
+        Genre
+      </h2>
+    </div>
+  </section>
+  
+  <div class="section-padding--none">
+    <div class="grid-large">
+      <hr class="sep"/>
+    </div>
+  </div>
+  
+
+  <div class="posts">
+    <div class="grid-xlarge">
+      
+      <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns ">
+        {% capture genres %}
+        {% for post in site.posts %}
+          {% for g in post.movie.genre %}
+            {{ g | strip_newlines  }}
+          {% endfor %}
+        {% endfor %}
+        {% endcapture %}
+        {% assign genre = genres |strip_newlines| split: " " | uniq %}
+        {% for each_genre in genre %}
+          {% assign prefix = site.data.color.colors | sample %}
+          <article class="language__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="language__link" href="/tag/{{ each_genre | downcase | prepend: site.baseurl }}" itemprop="url">
+                <div class="wrapper">
+                  <div class="language_tile" style="background-color: #{{ prefix }}; ">
+                    <div class="language_tile__text">
+                      <h4>{{ each_genre }}</h4>
+                    </div>
+                  </div>
+                  
+              </div>
+              <div>
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+    </div>

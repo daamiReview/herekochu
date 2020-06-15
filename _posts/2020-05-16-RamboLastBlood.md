@@ -1,15 +1,38 @@
 ---
 layout: post
-title: "Rambo: Last Blood"
 rating: 7.0
+title: 'Rambo: Last Blood'
+movie_name: 'Rambo: Last Blood'
+language: English
+movie:
+  rating: M
+  genre: 
+    - Drama
+    - Thriller
+    - Action
+  length: 165 min
+cast-crew:
+  director: Adrian Grunberg
+  Screen Play: 
+    - Sylvester Stallone
+    - Matt Cirulnick
+  Starring: 
+    - Sylvester Stallone
+    - Paz Vega
+    - Sergio Peris-Mencheta
+    - Adriana Barraza
+    - Yvette Monreal
+    - Joaquín Cosío
+    - Oscar Jaenada
 date: 2020-05-16
-description: First review by Adrian Shrestha	
+description: an american with an appetite to kill
 image: /assets/images/rambolastblood.jpg
 author: Adrian
 tags:
   - English
-
-
+  - Drama
+  - Thriller
+  - Action
 ---
 
 Vietnam War veteran John Rambo tries to find some semblance of peace by raising horses on a ranch in Arizona. He's also developed a special familial bond with a woman named Maria and her teenage granddaughter Gabriela. But when a vicious Mexican cartel kidnaps Gabriela, Rambo crosses the border on a bloody and personal quest to rescue her and punish those responsible.

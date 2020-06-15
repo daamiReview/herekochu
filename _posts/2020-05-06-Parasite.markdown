@@ -1,14 +1,42 @@
 ---
 layout: post
-title: "Parasite"
+title: Parasite
+movie_name: Parasite
 rating: 9.0
+language: Korean
+movie:
+  rating: R
+  length: 132 minutes
+  genre: 
+    - Comedy
+    - Drama
+cast-crew:
+  director: Bong Joon-ho
+  Producer: 
+    - Kwak Sin-ae
+    - Moon Yang-kwon
+    - Bong Joon-ho
+    - Jang Young-hwan
+  ScreenPlay:
+    - Bong Joon-ho
+    - Han Jin-won
+  Starring:
+    - Song Kang-ho
+    - Lee Sun-kyun
+    - Cho Yeo-jeong
+    - Choi Woo-shik
+    - Park So-dam
+    - Lee Jung-eun
+    - Jang Hye-jin
 date: 2020-05-06
-description: First review
+description: The world divided
 image: /assets/images/parasite.jpg
 author: Jungee
 tags:
   - korean
   - Foreign
+  - Comedy
+  - Drama
 ---
 
 
