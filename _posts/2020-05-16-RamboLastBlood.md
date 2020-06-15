@@ -1,7 +1,8 @@
 ---
 layout: post
 rating: 7.0
-title: "Rambo: Last Blood"
+title: 'Rambo: Last Blood'
+movie_name: 'Rambo: Last Blood'
 language: English
 movie:
   rating: M
@@ -12,8 +13,18 @@ movie:
     - Drama
     - Thriller
     - Action
+  length: 165 min
+cast-crew:
+  director: Adrian Grunberg
+  Screen Play: 
+    - Sylvester Stallone
+    - Matt Cirulnick
+  Starring: 
+    - Sylvester Stallone
+    - Adriana Barraza
+    - Yvette Monreal
 date: 2020-05-16
-description: First review by Adrian Shrestha	
+description: an american with an appetite to kill	
 image: /assets/images/rambolastblood.jpg
 author: Adrian
 tags:
