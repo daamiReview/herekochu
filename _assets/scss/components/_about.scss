@@ -6,7 +6,7 @@
         &_text{
             padding-left: 0.5em;
             padding-right: 0.5em;
-            
+            color: #048ea3;
         }
     }
 
@@ -78,6 +78,10 @@
                 grid-area: info3;
                 padding-left: 0.5em;
                 font-size: 120%;
+                background-color: #eee;
+                &_name{
+                    color: #048ea3;
+                }
             }
         }
 
