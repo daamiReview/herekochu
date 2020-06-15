@@ -1,5 +1,5 @@
 - name: Biwash Shrestha
-  post: Founder
+  post: Developer
   email: bshrestha@daamireview.com
   bio: Biwash is a movie enthusiasts who loves watching movies and series from different genre and languages. He has nearly over a decade of experience in film criticisms and analysis. simple and easy from a reviewer's point of view.
   picture: /assets/images/BiwashShrestha.jpg
@@ -21,15 +21,3 @@
   email: proshan@daamireview.com
   bio: Film review should be detailed enough to provide assistance in making an honest decision i.e. whether the reader wants to see it or if they’d like it.
   picture: /assets/images/RoshanPariyar.jpg
-
-- name: Buddhi Jung Gurung
-  post: UX Designer
-  email: haraaekoemail@daamireview.com
-  bio: This is Buddhi Jung Gurung and I am a System Architect for this project. I like dogs and cats
-  picture: /assets/images/BuddhiJungGurung.jpg
-
-- name: Arjun Gharti
-  post: Developer
-  email: haraaekoemail@daamireview.com
-  bio: This is Arjun Gharti and I am a System Architect for this project. I like dogs and cats
-  picture: /assets/images/ArjunGharti.jpg
