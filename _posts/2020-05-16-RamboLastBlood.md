@@ -25,7 +25,7 @@ cast-crew:
     - Joaquín Cosío
     - Oscar Jaenada
 date: 2020-05-16
-description: an american with an appetite to kill	
+description: an american with an appetite to kill
 image: /assets/images/rambolastblood.jpg
 author: Adrian
 tags:
