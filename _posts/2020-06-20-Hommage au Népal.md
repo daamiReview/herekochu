@@ -10,7 +10,7 @@ movie:
   length: 80 minutes
   genre: 
     - Documentary
-	- Nepali
+    - Nepali
 tags:
   - Nepali
   - French
