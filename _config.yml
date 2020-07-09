@@ -2,7 +2,7 @@
 email: us@daamireview.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
-google_analytics: 
+google_analytics: UA-172221206-1
 
 name: DaamiReview
 title: DaamiReview
