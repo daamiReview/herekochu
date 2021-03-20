@@ -8,13 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem "jekyll", ">= 3.9.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-paginate-v2"
-  gem "jekyll-sitemap"
-  gem "jekyll-youtube"
+  gem "jekyll-paginate-v2", ">= 3.0.0"
+  gem "jekyll-sitemap", ">= 1.4.0"
+  gem "jekyll-youtube", ">= 1.0.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
